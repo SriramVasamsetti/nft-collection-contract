@@ -1,0 +1,23 @@
+{
+  "name": "nft-collection",
+  "version": "1.0.0",
+  "description": "ERC-721 compatible NFT smart contract with comprehensive test suite",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "clean": "hardhat clean",
+    "gas-report": "REPORT_GAS=true hardhat test"
+  },
+  "keywords": ["ethereum", "nft", "erc721", "solidity", "hardhat"],
+  "author": "SriramVasamsetti",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "chai": "^4.3.7",
+    "ethers": "^6.7.1",
+    "hardhat": "^2.17.0",
+    "hardhat-gas-reporter": "^1.0.9"
+  }
+}
